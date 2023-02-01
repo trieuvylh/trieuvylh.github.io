@@ -13,7 +13,7 @@ email: nelly.pustelnik@ens-lyon.fr
 description: > # this means to ignore newlines until "baseurl:"
   Hello world! 
 baseurl: ""
-url: "https://perso.ens-lyon.fr/hoang.le/ANR-web/"
+url: "trieuvylh.github.io"
 
 include:
   - .htaccess
@@ -41,12 +41,3 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
-ftp_host: 'perso.ens-lyon.fr'
-ftp_dir: ''
-ftp_passive: false
-
-# optional
-ftp_port: 21                  # default 21
-ftp_username: 'hole01'     # default read from stdin
-ftp_password: 'Phamnhuquynh1997' # default read from stdin
-ftp_secure: true              # default false
